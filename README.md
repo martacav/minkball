@@ -3,6 +3,7 @@ Branch-and-bound method for the minimum k-enclosing ball problem
 
 ## Introduction
 The minimum k-enclosing ball problem seeks the ball with smallest radius that contains at least k of m given points. This problem is NP-hard. This is the Matlab code of a branch-and-bound algorithm on the tree of the subsets of k points to solve this problem. Our method is able to solve the problem exactly in a short amount of time for small and medium sized datasets.
+
 For further information on the algorithm, please consult the respective paper (see Reference / Citation).
 
 ## Running the code
@@ -15,7 +16,7 @@ To run the code, call function `run_MinkBall`:  `[rOpt, xOpt] = run_MinkBall(P, 
 - options ~ struct containing the options to apply to the algorithm. For a description of the options, see `run_MinkBall.m`.
 
 Notes: 
-- If no inputs provided, run_MinkBall will generate a randomly normal dataset of 100 3-dimensional points; k is also random; the default options are used;
+- If no inputs provided, `run_MinkBall` will generate a randomly normal dataset of 100 3-dimensional points; k is also random; the default options are used;
 - If options is not provided, then the default options will be used.
 
 ### Output of run_MinkBall
