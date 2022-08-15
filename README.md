@@ -9,10 +9,10 @@ For further information on the algorithm, please consult the respective paper (s
 To run the code, call function `run_MinkBall`:  `[rOpt, xOpt] = run_MinkBall(P, k, outputfile, options)`
 
 ### Input of run_MinkBall
--P ~ matrix containing the data points - each column corresponds to a point (use genRandPoints.m to generate random datasets with specific features);
--k ~ number of points to enclose (1 <= k <= m) by the ball;
--outputfile ~ name of the file to store output info (.mat file);
--options ~ struct containing the options to apply to the algorithm. For a description of the options, see `run_MinkBall.m`.
+- P ~ matrix containing the data points - each column corresponds to a point (use genRandPoints.m to generate random datasets with specific features);
+- k ~ number of points to enclose (1 <= k <= m) by the ball;
+- outputfile ~ name of the file to store output info (.mat file);
+- options ~ struct containing the options to apply to the algorithm. For a description of the options, see `run_MinkBall.m`.
 
 Notes: 
 -If no inputs provided, run_MinkBall will generate a randomly normal dataset of 100 3-dimensional points; k is also random; the default options are used;
